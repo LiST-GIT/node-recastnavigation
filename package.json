@@ -1,15 +1,18 @@
 {
   "name": "node-recastnavigation",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "recast navigation for node.js addon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node tests/index.js",
     "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LiST-GIT/node-recastnavigation.git"
+  },
+  "dependencies": {
+    "nan": "^2.3.3"
   },
   "keywords": [
     "recast",
