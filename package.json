@@ -1,6 +1,6 @@
 {
   "name": "node-recastnavigation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "recast navigation for node.js addon",
   "main": "index.js",
   "scripts": {
