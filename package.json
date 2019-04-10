@@ -1,0 +1,25 @@
+{
+  "name": "node-recastnavigation",
+  "version": "1.0.0",
+  "description": "recast navigation for node.js addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiST-GIT/node-recastnavigation.git"
+  },
+  "keywords": [
+    "recast",
+    "navigation"
+  ],
+  "author": "LiST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiST-GIT/node-recastnavigation/issues"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/LiST-GIT/node-recastnavigation#readme"
+}
