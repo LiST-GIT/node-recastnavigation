@@ -21,7 +21,7 @@ console.log( 'DT_STRAIGHTPATH_OFFMESH_CONNECTION: ' + recastnavigation.DT_STRAIG
 var soloMesh = new recastnavigation.SampleSoloMesh();
 
 console.time( 'solo mesh load' );
-console.log( soloMesh.load( '../recastnavigation/RecastDemo/Bin/Meshes/nav_test.obj' ) );
+console.log( soloMesh.load( 'nav_test.obj' ) );
 console.timeEnd( 'solo mesh load' );
 
 
