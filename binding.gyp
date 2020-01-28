@@ -59,9 +59,13 @@
 				"./recastnavigation/RecastDemo/Source/Sample.cpp",
 				"./recastnavigation/RecastDemo/Source/SampleInterfaces.cpp",
 				"./recastnavigation/RecastDemo/Source/Sample_SoloMesh.cpp",
+				"./recastnavigation/RecastDemo/Source/Sample_TileMesh.cpp",
+				"./recastnavigation/RecastDemo/Source/Sample_TempObstacles.cpp",
 
-				"./src/addon.cc",
-				"./src/SampleSoloMeshWrap.cpp"
+				"./src/SampleSoloMeshWrap.cpp",
+				"./src/SampleTileMeshWrap.cpp",
+				"./src/SampleTempObstaclesWrap.cpp",
+				"./src/addon.cc"
 			]
 		}
 	]

@@ -2,6 +2,8 @@
 #include <nan.h>
 
 #include "SampleSoloMeshWrap.hpp"
+#include "SampleTileMeshWrap.hpp"
+#include "SampleTempObstaclesWrap.hpp"
 
 using namespace v8;
 
@@ -25,6 +27,8 @@ void Init(Handle<Object> exports) {
     Nan::Set(exports, Nan::New("DT_STRAIGHTPATH_OFFMESH_CONNECTION").ToLocalChecked(), Nan::New(DT_STRAIGHTPATH_OFFMESH_CONNECTION));
     
     SampleSoloMeshWrap::Init(exports);
+    SampleTileMeshWrap::Init(exports);
+    SampleTempObstaclesWrap::Init(exports);
 }
 
 NODE_MODULE(addon, Init)

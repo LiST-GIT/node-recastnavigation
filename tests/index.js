@@ -1,4 +1,16 @@
-var recastnavigation = require( 'node-recastnavigation' );
+var lodash = require( 'lodash' );
+var recastnavigation = require( '../index.js' );
+
+// var tileMesh = new recastnavigation.SampleTileMesh();
+// var fname = __dirname + '/map.bytes';
+// console.log( tileMesh.load( fname ) );
+// tileMesh.build();
+// var start = null;
+// var end = null;
+// console.log( start = tileMesh.findNearestPoly( 7072 / 100, 0, 3618 / 100, 0, 1000, 0 ) );
+// console.log( end = tileMesh.findNearestPoly( 7075 / 100, 0, 3618 / 100, 0, 1000, 0 ) );
+// console.log( tileMesh.findPath( start.x, start.y, start.z, end.x, end.y, end.z, 1000 ) );
+// return;
 
 console.log( 'SAMPLE_POLYAREA_GROUND: ' + recastnavigation.SAMPLE_POLYAREA_GROUND );
 console.log( 'SAMPLE_POLYAREA_WATER: ' + recastnavigation.SAMPLE_POLYAREA_WATER );
