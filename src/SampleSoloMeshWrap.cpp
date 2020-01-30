@@ -135,7 +135,7 @@ NAN_METHOD(SampleSoloMeshWrap::FindPath) {
         Nan::Set(vector3, Nan::New("z").ToLocalChecked(), Nan::New(straightPath[cursor + 2]));
         Nan::Set(vector3, Nan::New("ref").ToLocalChecked(), Nan::New(straightPathRefs[index]));
         Nan::Set(vector3, Nan::New("flags").ToLocalChecked(), Nan::New(straightPathFlags[index]));
-        result->Set( index, vector3 );
+        Nan::Set(result, index, vector3);
     }
     info.GetReturnValue().Set(result);
 }
